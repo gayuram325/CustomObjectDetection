@@ -52,7 +52,7 @@ It's preferred to run the training & inference in a gpu environment. So use Goog
 
  13. Inferencing the trained model using the below command
 !python detect.py --conf 0.5 --img-size 640 --weights runs/train/yolo7-custom11/weights/best.pt --source crushed_coke_can_3.jpeg --no-trace
-   # where conf is the confidence threshold, weight is the custom trained weight that you get from the training and source is the image you want to detect the object
+    where conf is the confidence threshold, weight is the custom trained weight that you get from the training and source is the image you want to detect the object
         
     
 
